@@ -1,0 +1,289 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  font-family: "Baloo Bhai 2", cursive;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+.container{
+	margin: auto 0px auto 0px;
+}
+.first_h{
+	background-color: black
+		;
+	color: black;
+	height: 65px;
+	margin-top: 0px;
+	z-index: 10;
+	width: 100%;
+}
+.logo{
+	justify-content: center;
+  	padding-top: 32px;
+	width: 7px;
+}
+.left {
+	justify-content: center;
+	position: absolute;
+	margin-left: 15px;
+	margin-top: 2px;
+}
+
+.f1{
+	position: absolute;
+	top: 8px;
+	color: aqua;
+	margin-left: 70px;
+	margin-top: inherit;
+}
+.g2{
+	position: absolute;
+	top: 110px;
+	text-align: center;
+	color: aliceblue;
+	font-size: 100px;
+	
+}
+.g4{
+	position: absolute;
+	top: 110px;
+	text-align: center;
+	color: aliceblue;
+	font-size: 10px;
+}
+
+.b2{
+	margin-right: 0px;
+	justify-content: flex-end;
+}
+.i2{
+	position: inherit;
+	top: 8px;
+	color: black;
+	margin-top: 0px;
+	margin-left: 100%;
+	
+}
+.b3{
+	position: absolute;
+	top: 8px;
+	color: aqua;
+	margin-left: 1300px;
+	margin-top: inherit;
+	
+}
+.main_1{
+	max-width: 100%;
+}
+.l3{
+	position: absolute;
+	
+	width: 40%;
+	margin-top: 50px;
+	font-size: 28px;
+	margin-left: 30px;
+}
+.i3{
+	position: absolute;
+	text-align: end;
+	margin-right: 10px;
+	margin-top: 80px;
+	
+}
+.i4{
+/*	filter: saturate(2);*/
+/*	filter: blur(10);*/
+	
+	
+}
+.dj9{
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 30px;
+	top: 8px;
+	font-size: 30px;
+	color: midnightblue;
+	font: bold;
+	width: 50px;
+}
+.main_2{
+	position: relative;
+	height: 100%;
+	margin-right: 0px;
+	margin-top: 0px;
+}
+.scton1{
+	position: inherit;
+	margin-top: 550px;
+	height: 400px;
+	width: 100%;
+	background-color: darkgoldenrod;
+	margin-right: 0px;
+	margin-left: 30px;
+	
+}
+
+.m4{
+	margin-top: 1px;
+	
+}
+.m5{
+	margin-top: 10px;
+}
+.scrolling-wrapper{
+	overflow-x: hidden;
+	overflow-y: hidden;
+	white-space: nowrap;
+	
+}
+.card{
+	display: inline-block;
+	margin-top: inherit;
+}
+.icd1{
+	
+}
+
+.service-des{
+	background-repeat: repeat;
+  background-size: cover;
+  image-resolution: inherit;
+	top: 750px;
+  text-transform: uppercase;
+  font-size: 30px;
+  text-align: center;
+	
+  color: crimson;
+/*  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"*/
+}
+.services{
+  display: flex;
+  flex-direction: row;
+	animation: serv-p 15s linear infinite;
+/*	animation: serv-s 15s linear infinite;*/
+	
+/*	animation-delay: 1s;*/
+	
+}
+.service-img{
+	position: relative;
+  height: 300px;
+  width: 234px;
+  margin: 12px 20px auto 20px;
+/*	transform: translateX(-50%);*/
+	
+}
+/*
+.keyframes {
+	animation: serv 3s linear infinite;
+}
+*/
+
+@keyframes serv-p{
+	from{
+		transform: translateX(0%);
+		
+	}
+	to{
+		transform: translateX(-100%);
+	}
+	
+}
+/*
+@keyframes serv-s{
+	from{
+		transform: translateX(100%);
+	}
+	to{
+		transform: translateX(-0%);
+	}
+}
+*/
+.f3{
+	text-transform: uppercase;
+  font-size: 30px;
+  text-align: center;
+  color: crimson;
+	overflow-y: hidden;
+	width: 300px;
+}
+/*
+.MagicScroll{
+	display: flex;
+  flex-direction: row;
+	height: 300px;
+  width: px;
+	
+  margin: 12px 20px auto 20px;
+}
+*/
+.slide{
+	background: repeat;
+	
+}
+.orwn{
+	background-color: beige;
+	width: 100%;
+	height: 400px;
+	padding-top: 1px;
+}
+.fter3{
+	background-color: black;
+	height: 70px;
+	text-align: center;
+	justify-content: center;
+	
+}
+.h1{
+	
+	
+	
+}
+
+.container3{
+  height: fit-content;
+  margin: 25px 0;
+}
+.about{
+  display: flex;
+  flex-direction: row;
+  flex-basis: 200px;
+}
+.about-sec{
+  font-family: "Mrs Saint Delafield", cursive;
+  font-weight: 450;
+  font-size: 100px;
+  margin-bottom: 0px;
+  color: rgb(26, 178, 205);
+  width: 1200px;
+  align-items: center;
+}
+.about-des{
+  color: black;
+  font-size: 20px;
+  margin-top: 52px;
+}
+.btn-div{
+  margin-left: 40%
+}
+.btn-ab{
+  font-family: "Baloo Bhai 2", cursive;
+  margin: 0px 9px;
+  color: white;
+  background-color: rgb(31, 136, 177);
+  border: 2px solid rgb(150, 148, 148);
+  border-radius: 10px;
+  font-size: 17px;
+  cursor: pointer;
+  margin-bottom: 2px;
+}
+.btn-ab:hover {
+  background-color: rgb(110, 107, 107);
+}
